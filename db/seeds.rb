@@ -15,3 +15,10 @@ Product.create!(title: 'Carta de truco',
 	  },
   image_url: 'truc.jpg',
   price: 5.00)  
+  Product.create!(title: 'Libro de prog',
+  description:
+    %{
+	  Un libro de programacion para aprender re bien y ser re picante haciendo paginas web.
+	  },
+  image_url: 'truc.jpg',
+  price: 50.00)  
